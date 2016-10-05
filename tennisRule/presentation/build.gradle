@@ -48,7 +48,7 @@ test{
 
 deployConfig {
     deployFile = "scripts/deploy" // list of files to deploy
-    jbossHome = "/opt/wildfly/"
+    jbossHome = "/usr/local/Cellar/wildfly-as/10.0.0.Final/libexec/"
     boxes = [
         'Local' : [
             wildfly:new helpers.Server()
